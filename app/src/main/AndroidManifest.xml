@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dhammachakka"
+    package="com.app.demo"
     android:versionCode="1"
     android:versionName="1.0">
-    
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -15,11 +11,10 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:roundIcon="@drawable/ic_launcher_round"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.example.dhammachakka.MainActivity">
+        <activity android:name="com.app.demo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,10 +22,5 @@
         </activity>
 
     </application>
-    
-    <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-         <background android:drawable="@color/ic_launcher_background"/>
-         <foreground android:drawable="@drawable/ic_launcher_foreground"/>
-    </adaptive-icon>
 
 </manifest>
