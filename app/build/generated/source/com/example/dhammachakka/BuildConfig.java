@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.sp.app;
+package com.example.dhammachakka;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

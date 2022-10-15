@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+// clock
+.clock {
+  width: 90%;
+  margin: auto;
+  padding: auto;
+  
+}
+path {
+  fill: red;
+  stroke: none;
+  opacity: 0.06;
+}
+
+.segment {
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+}
+
+.segment.on {
+  opacity: 1;
+}
+
+.separator {
+  opacity: 1;
+  animation: dots 1s infinite;
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+}

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.sp.app;
+package com.example.dhammachakka;
 
 public final class R {
     public static final class attr {
